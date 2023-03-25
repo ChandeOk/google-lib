@@ -32,3 +32,9 @@
 }
 .book-full-info-description {
 }
+
+@media (max-width: 485px) {
+  .book-full-info-img-container {
+    align-items: flex-start;
+  }
+}
