@@ -1,0 +1,34 @@
+.book-full-info-container {
+  width: 100vw;
+  min-height: 70vh;
+  background-color: grey;
+  display: flex;
+  /* gap: 10rem; */
+}
+.book-full-info-img-container {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150rem;
+}
+.book-full-info-about-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.book-full-info-category {
+  height: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.book-full-info-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.book-full-info-authors {
+  margin-bottom: 1.3rem;
+}
+.book-full-info-description {
+}

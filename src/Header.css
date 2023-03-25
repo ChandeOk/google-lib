@@ -1,0 +1,32 @@
+header {
+  background-color: blanchedalmond;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1.6rem;
+}
+
+.selects-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#categories,
+#sort-by {
+  width: 10rem;
+}
+
+.button-search {
+}
+@media (max-width: 485px) {
+  .selects-container {
+    flex-direction: column;
+  }
+}
